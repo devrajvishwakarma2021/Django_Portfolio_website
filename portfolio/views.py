@@ -3,8 +3,8 @@ from django.contrib import messages
 from portfolio.models import Contact,Blog,Internship
 # Create your views here.
 def home(request):
-    return render(request, 'basic.html')
-    # return render(request, 'home.html')
+    return render(request, 'home.html')
+    # return render(request, 'base.html')
 
 def about(request):
     return render(request, 'about.html')

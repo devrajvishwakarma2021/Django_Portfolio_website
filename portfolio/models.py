@@ -34,3 +34,6 @@ class Internship(models.Model):
     timeStamp=models.DateTimeField(auto_now_add=True, blank=True)
     def __str__(self):
         return self.usn
+    
+
+
